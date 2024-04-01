@@ -128,6 +128,12 @@ console.log( y );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-mskfilter`][@stdlib/array/mskfilter]</span><span class="delimiter">: </span><span class="description">apply a mask to a provided input array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -171,8 +177,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-mskreject.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-mskreject
 
-[test-image]: https://github.com/stdlib-js/array-mskreject/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/array-mskreject/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/array-mskreject/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-mskreject/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-mskreject/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-mskreject?branch=main
@@ -205,6 +211,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-mskreject/main/LICENSE
 
 [@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+
+<!-- <related-links> -->
+
+[@stdlib/array/mskfilter]: https://github.com/stdlib-js/array-mskfilter
+
+<!-- </related-links> -->
 
 </section>
 
