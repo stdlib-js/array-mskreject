@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mskreject from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-mskreject@esm/index.mjs';
+import mskreject from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-mskreject@v0.1.2-esm/index.mjs';
 ```
 
 #### mskreject( x, mask )
@@ -90,7 +90,7 @@ The function supports the following parameters:
 
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import mskreject from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-mskreject@esm/index.mjs';
+import mskreject from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-mskreject@v0.1.2-esm/index.mjs';
 
 // Generate a linearly spaced array:
 var x = zeroTo( 20, 'generic' );
