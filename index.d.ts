@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,22 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var zeroTo = require( '@stdlib/array-zero-to' );
-var bernoulli = require( '@stdlib/random-array-bernoulli' );
-var mskreject = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-// Generate a linearly spaced array:
-var x = zeroTo( 20, 'generic' );
-console.log( x );
+import { Collection } from '@stdlib/types/array';
 
-// Generate a random mask:
-var mask = bernoulli( x.length, 0.5, {
-	'dtype': 'generic'
-});
-console.log( mask );
+/**
+* Returns a new array by applying a mask to a provided input array.
+*
+* @param x - input array
+* @param mask - mask array
+* @returns output array
+*
+* @example
+* var x = [ 1, 2, 3, 4 ];
+*
+* var y = mskreject( x, [ 0, 1, 0, 1 ] );
+* // returns [ 1, 3 ]
+*/
+declare function mskreject<T = unknown>( x: Collection<T>, mask: Collection ): Collection<T>; // FIXME: use type maps once associated PR merged
 
-// Filter an array using the mask:
-var y = mskreject( x, mask );
-console.log( y );
+
+// EXPORTS //
+
+export = mskreject;
